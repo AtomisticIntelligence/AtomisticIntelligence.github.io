@@ -48,7 +48,6 @@
             '<span class="footer__cn l-zh">原子智能实验室</span>' +
           '</div>' +
           '<div>' + t('Institute of AI Innovation and Industry (AI³), Fudan University', '复旦大学人工智能创新与产业研究院（AI³）') + '</div>' +
-          '<div>' + t('825 Zhangheng Road, Pudong, Shanghai 201203', '上海市浦东新区张衡路 825 号，201203') + '</div>' +
         '</div>' +
         '<div class="footer__links">' +
           '<a href="https://github.com/AtomisticIntelligence" target="_blank" rel="noopener">GitHub</a>' +
