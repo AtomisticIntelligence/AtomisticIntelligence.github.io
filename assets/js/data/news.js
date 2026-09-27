@@ -18,8 +18,8 @@ window.NEWS = [
   },
   {
     date: "2025.12",
-    en: "Bowen served as a session chair at the Materials Research Society (MRS) Winter Meeting.",
-    zh: "邓博文担任美国材料研究学会（MRS）冬季会议分会主席（Session Chair）。"
+    en: "Bowen chaired session MT04.02: Machine Learning Potentials II at the Materials Research Society (MRS) Winter Meeting.",
+    zh: "邓博文担任美国材料研究学会（MRS）冬季会议 MT04.02: Machine Learning Potentials II 分会主席（Session Chair）。"
   },
   {
     date: "2025.12",
