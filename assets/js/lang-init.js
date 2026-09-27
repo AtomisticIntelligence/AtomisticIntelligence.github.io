@@ -1,7 +1,10 @@
 // Runs in <head> before first paint so the page never flashes the wrong language.
-// Default is Chinese; a visitor's choice (via the 中文/EN button) is remembered.
+// Order: ?lang= in the URL > the visitor's saved choice (中/EN button) > system/browser language.
+// A Chinese system language gives Chinese, any other gives English; Chinese if the browser reports none.
 (function () {
   var lang = 'zh';
+  var sys = (navigator.languages && navigator.languages[0]) || navigator.language || '';
+  if (sys) lang = /^zh\b/i.test(sys) ? 'zh' : 'en';
   try {
     var saved = localStorage.getItem('ail-lang');
     if (saved === 'en' || saved === 'zh') lang = saved;

@@ -52,11 +52,6 @@ window.NEWS = [
     zh: "微软研究院科学论坛（Microsoft Research Science Forum）邀请报告。"
   },
   {
-    date: "2024.07",
-    en: "Talk at the Gordon Research Conference on Computational Materials Science.",
-    zh: "在 Gordon 研究会议（计算材料科学）作报告。"
-  },
-  {
     date: "2024.05",
     en: "Bowen worked with the Google DeepMind Science Team on materials AI and thermodynamics (May–Nov 2024).",
     zh: "邓博文在 Google DeepMind Science Team 从事材料 AI 与热力学研究（2024 年 5–11 月）。"

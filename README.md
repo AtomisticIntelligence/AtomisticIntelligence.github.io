@@ -3,7 +3,7 @@
 Website of the Atomistic Intelligence Lab (PI: Bowen Deng), Institute of AI Innovation and Industry (AI³), Fudan University.
 
 Plain static HTML/CSS/JS: no build step and no external fonts or CDNs, so it loads quickly from mainland China.
-Chinese is the default language. Visitors switch with the 中/EN button, and their choice is remembered. `?lang=en` forces English.
+The language follows the visitor's system/browser language: Chinese systems get Chinese, everything else gets English. Visitors can switch with the 中/EN button, and their choice is remembered. `?lang=en` or `?lang=zh` in the URL forces a language.
 
 ## Pages
 
