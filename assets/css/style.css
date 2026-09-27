@@ -349,4 +349,3 @@ html[data-lang="en"] .lang-toggle__opt--en { background: #fff; color: var(--navy
 .footer a { color: rgba(255, 255, 255, .7); }
 .footer a:hover { color: #fff; }
 .footer__copy { margin-top: 24px; padding-top: 16px; border-top: 1px solid rgba(255, 255, 255, .08); font-size: 13px; }
-.checks__note { margin-top: 16px; color: var(--muted); }
