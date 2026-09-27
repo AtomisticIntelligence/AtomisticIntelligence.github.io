@@ -5,7 +5,7 @@
 // - topics: any of "agents", "mlip", "materials" (used by the filter on the Publications page).
 // - selected: true → shown on Home and in "Selected".
 window.TOPICS = {
-  agents:    { en: "AI Agents & Language", zh: "科学智能体" },
+  agents:    { en: "Scientific AI Agents", zh: "科学智能体" },
   mlip:      { en: "Atomistic ML", zh: "Atomistic ML" },
   materials: { en: "Materials Discovery", zh: "材料发现" }
 };
