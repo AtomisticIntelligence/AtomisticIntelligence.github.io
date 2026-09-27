@@ -1,7 +1,9 @@
 // ---------------------------------------------------------------------------
 // Site config — edit here.
 // ---------------------------------------------------------------------------
-var CONTACT_EMAIL = ''; // TODO: e.g. your Fudan address. Leave empty to show a highlighted placeholder.
+// Contact email, stored in two parts so the full address never appears in the page source (anti-spam).
+// The page shows "name (at) domain"; clicking still opens a normal mail window. Leave empty for a placeholder.
+var CONTACT_EMAIL = ['bowendeng0315', 'gmail.com'];
 
 (function () {
   var root = document.documentElement;
@@ -30,9 +32,13 @@ var CONTACT_EMAIL = ''; // TODO: e.g. your Fudan address. Leave empty to show a 
 
   // ----- Email -----
   document.querySelectorAll('.js-email').forEach(function (a) {
-    if (CONTACT_EMAIL) {
-      a.href = 'mailto:' + CONTACT_EMAIL;
-      a.textContent = CONTACT_EMAIL;
+    if (CONTACT_EMAIL && CONTACT_EMAIL.length === 2) {
+      a.textContent = CONTACT_EMAIL[0] + ' (at) ' + CONTACT_EMAIL[1];
+      a.addEventListener('click', function (e) {  // build the mailto link only when clicked
+        e.preventDefault();
+        location.href = 'mail' + 'to:' + CONTACT_EMAIL.join('@');
+      });
+      a.href = '#';
     } else {
       a.removeAttribute('href');
       a.textContent = '[email to be added]';
